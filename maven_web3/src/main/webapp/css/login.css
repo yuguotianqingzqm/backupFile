@@ -1,0 +1,79 @@
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				list-style-type: none;
+			}
+			body{
+				background-color: lightcyan;
+			}
+			header .center{
+						width: 700px;
+						padding-left:90px;
+						margin-left: 350px;
+					}
+		section{
+			display: flex;
+			width: 1500px;
+			margin-left: 100px;
+			flex-wrap: wrap;
+		}
+		aside#left{
+			display: flex;
+			width:990px;
+			flex-wrap: wrap;
+			background: lavender;
+		}
+		aside#right{
+			width: 400px;
+			height: 600px;
+			background-color: oldlace;
+		}
+		aside#right>div>table #t-good td{
+			line-height: 80px;
+			
+		}
+		aside#right #shoppingCart{
+			width: 390px;
+			height: 420px;
+			overflow-y: scroll;
+			text-align: center;
+		}
+		aside#right	#bottom-button #submit{
+			margin-left: 160px;
+		}
+		aside#left>div{
+			width: 310px;
+			
+			display: flex;
+			height: 300px;
+			flex-wrap: wrap;
+		}
+		aside#left>div>div{
+			background-color:blanchedalmond;
+			margin-bottom:40px ;
+			margin-left: 8px;
+			width: 80px;
+			text-align: center;
+		
+			border-radius: 10px;
+			padding-top: 6px;
+		}
+		aside#left ul{
+			width: 150px;
+			height: 200px;
+			
+		}
+		aside#left ul>li{
+			margin-top: 15px;
+		}
+		aside#left img{
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
+		aside#left #show-l div{
+			/* 变小手 */
+			cursor: pointer;
+		}
+	

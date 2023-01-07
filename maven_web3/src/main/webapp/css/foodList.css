@@ -1,0 +1,10 @@
+
+section>#right table td{
+	height: 50px;
+	line-height:35px;
+	text-align: center;
+}
+section>#right table img{
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,33 @@
+section{
+	background-color: whitesmoke;
+	height: 650px;
+	width: 700px;
+	margin: auto;
+	overflow-y: scroll;
+}
+section #img{
+	width: 100px;
+	
+}
+section img{
+	height: 100%;
+	width: 100%;
+}
+#div1{
+	display: flex;
+	flex-wrap: wrap;
+	background: white;
+	margin-top: 20px;
+}
+#div1 ul li{
+	margin: 20px;
+}
+input[type=button]{
+	background-color:darkorange;
+	border-radius: 5px;
+	border: none;
+	width: 80px;
+	margin-left:340px;
+	margin-top: 70px;
+	height: 30px;
+}
